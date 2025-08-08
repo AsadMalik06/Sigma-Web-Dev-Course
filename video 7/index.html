@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORMS lets learn them.</title>
+  </head>
+  <body>
+    <form action="post">
+      <div>
+        <h1>Form for Web Dev Intern</h1>
+        <label for="username">Username:</label>
+        <input
+          type="text" required
+          id="username"
+          name="username"
+          placeholder="Enter your username"
+        />
+      </div>
+      <div>
+        <label for="gender"> Gender:</label> required
+        <input type="radio" id="gender" name="gender" value="male" /> Male
+        <input type="radio" id="gender" name="gender" value="female" /> Female
+      </div>
+      <div>
+        <label for="confirmation">Confirmation:</label>
+        <input
+          type="checkbox"
+          id="confirmation"
+          name="confirmation"
+          value="yes"
+        />
+        I confirm that I am eligible for the internship.
+      </div>
+      <div>
+        <label for="message">Message:</label>
+        <br>
+        <textarea name="message" id="message" 
+        rows=5 cols="20" placeholder="Enter your message here"
+        ></textarea>
+      </div>
+      <div>
+        <label for="options">Post you are applying for:</label>
+        <select name="options" id="options">
+          <option value="MERN STACK">MERN STACK</option>
+          <option value="MEAN STACK">MEAN STACK</option>
+          <option value="GRAPHIC DESIGNER">GRAPHIC DESIGNER</option>
+        </select>
+      </div>
+      
+    </form>
+  </body>
+</html>
