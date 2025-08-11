@@ -1,0 +1,15 @@
+.red{
+    color: red;
+}
+.bg-yellow{
+    background-color: yellow;
+}
+#1st div{
+    border: 1px solid black;
+}
+#2nd div{
+    border: 2px solid black;
+}
+#1st span{
+    border: 1px dashed black;
+}
