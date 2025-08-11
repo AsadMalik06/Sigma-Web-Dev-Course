@@ -1,0 +1,6 @@
+nav{display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e86e6e;
+  padding: 10px;
+}
